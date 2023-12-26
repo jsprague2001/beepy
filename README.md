@@ -13,6 +13,7 @@ A silly utility to read the battery percentage and feed it to cowsay. If the bat
                 ||----w |
                 ||     ||
 ```
+
 The script reads the file ```/sys/firmware/beepy/battery_percent```
 
 A useful option is to change it to an executable
