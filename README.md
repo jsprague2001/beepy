@@ -4,6 +4,7 @@ Beepy Utilties
 A silly utility to read the battery percentage and feed it to cowsay. If the battery is above 
 
 
+```
  _____________
 < Battery 31% >
  -------------
@@ -12,4 +13,4 @@ A silly utility to read the battery percentage and feed it to cowsay. If the bat
             (__)\       )\/\
                 ||----w |
                 ||     ||
-                
+```
