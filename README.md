@@ -17,9 +17,11 @@ A silly utility to read the battery percentage and feed it to cowsay. If the bat
 The script reads the file ```/sys/firmware/beepy/battery_percent```
 
 A useful option is to change it to an executable
+```
 $chmod +x battstat.py
-
+```
 Then copy the python script to ```/usr/bin```
+```
 $sudo cp battstat.py /usr/bin/battstat
-
+```
 
