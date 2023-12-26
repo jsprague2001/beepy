@@ -9,9 +9,10 @@ with open(batt_percent_file) as f:
 
 batt_percent_num = int(batt_percent)
 
+# Define the cow mode
 def switch(batt_percent_num):
     if 31 <= batt_percent_num < 100:
-        return '-w'
+        return '-p'
     if 21 <= batt_percent_num <= 30:
         return '-s'
     if 11 <= batt_percent_num <= 20:
