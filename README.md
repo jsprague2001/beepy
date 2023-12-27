@@ -1,7 +1,7 @@
 # beepy
 Beepy battery utility
 
-A silly utility to read the battery percentage and feed it to cowsay. If the battery is at or above 30% the cow looks wired. As the battery drains it transistions to paranoid, tired and then dead.
+A silly utility to read the battery percentage and feed it to cowsay. If the battery is at or above 30% the cow looks wired. As the battery drains below 30% the cow transistions to paranoid, tired and then dead.
 
 ```text
  _____________
